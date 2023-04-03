@@ -1,0 +1,89 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main styles */
+main {
+  padding: 50px;
+  background-color: #fff;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+main p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+footer p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* Highlight styles */
+.highlight {
+  color: #ff0080;
+  font-weight: bold;
+}
+
+/* Script font styles */
+h1, h2, h3, h4, h5, h6, .script {
+  font-family: 'Lobster', cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

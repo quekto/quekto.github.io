@@ -1,0 +1,132 @@
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+nav h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+nav li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+nav li a:hover {
+    color: #ffce00;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../img/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+/* Main Content */
+main {
+    padding: 4rem 0;
+}
+
+.main-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #999;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.footer-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link {
+    display: block;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+.social-link:hover {
+    color: #ffce00;
+}
