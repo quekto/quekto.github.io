@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #737f81;
+    background-color: #7ba4ab;
     color: #fff;
     padding: 1em;
 }
@@ -58,8 +58,32 @@ section.posts h2 {
     margin-bottom: 1em;
 }
 
+section.posts_notmain {
+    padding: 2em;
+}
+
+section.posts_notmain h1 {
+    padding-bottom: 1.8em;
+    font-size: 3em;
+    text-align: center;
+}
+
+section.posts_notmain h2{
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 0em;
+}
+
+p.date {
+    margin-top: .5em;
+    padding-bottom: 1em;
+}
+
+
+
+
 article {
-    margin-bottom: 2em;
+    margin-bottom: 6em;
 }
 
 article h3 {
@@ -74,9 +98,14 @@ article p {
     margin: 0;
 }
 
+
 footer {
     background-color: #333;
     color: #fff;
     padding: 1em;
+    text-align: center;
+}
+
+.centered_text {
     text-align: center;
 }
